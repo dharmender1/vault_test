@@ -1,0 +1,36 @@
+{
+	"name": "technicalguru/vault",
+	"description": "A flexible, lightweight PHP-based vault to provide secrets dynamically",
+	"type": "library",
+	"keywords": [
+		"framework",
+		"vault",
+		"vault-client",
+		"hashicorp",
+		"hashicorp-vault"
+	],
+	"license": "LGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "TechnicalGuru",
+			"homepage": "https://github.com/technicalguru/php-vault"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0",
+		"technicalguru/utils": "^1"
+	},
+	"autoload": {
+		"psr-4": {
+			"TgVault\\": "src/TgVault/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	}
+}

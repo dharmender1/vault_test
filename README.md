@@ -1,4 +1,4 @@
-# technicalguru/php-vault
+# php-vault
 A flexible PHP-based vault to provide secrets dynamically
 
 # License
